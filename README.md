@@ -29,9 +29,26 @@
 - Update account info
 ![Capture d'écran 2023-05-16 001952](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e6472709-1265-4da6-8c9b-3b7e36e57998)
 
-7. Générer et tester le documentation Swagger de des API Rest du Web service
+7. Générer et tester le documentation Swagger du API Rest du Web service
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/8e5b7eba-678d-4436-aa21-aecc4f755cad)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/aaf31962-957c-4584-bbc8-6e3b80464148)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/968b22d2-af90-46c0-be0a-35b63d086932)
 
 8. Exposer une API Restful en utilisant Spring Data Rest en exploitant des projections
+- Utilisation de Spring Data Rest
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/3f23c2dd-f8cb-42c5-bd3f-fc53347b7045)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/7d742709-bafa-458f-8af9-12c3d591632b)
+- Projection
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/99fb0e1a-b608-4f0c-bf0f-620a1e48a9d3)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e0b2c396-9d71-43ab-a78e-2f37b168136c)
+
 9. Créer les DTOs et Mappers
-10. Créer la couche Service (métier) et du micro service
+- Save new account using DTOs
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e938205a-e136-4fcd-83c3-271d02752aae)
+- Save new account using Mappers
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f51e2990-4f37-4775-aacd-a41f73537558)
+
+10. Créer la couche Service (métier) du micro service
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f0ba00f7-401a-491d-ad30-2472965f9173)
+
 11. Créer un Web service GraphQL pour ce micro-service
