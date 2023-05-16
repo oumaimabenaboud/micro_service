@@ -15,7 +15,7 @@
 ![Capture d'écran 2023-05-15 224626](https://github.com/oumaimabenaboud/micro_service/assets/120368654/21a25c27-a002-45c0-9ca2-6f38aae0af9b)
 ![Capture d'écran 2023-05-15 224903](https://github.com/oumaimabenaboud/micro_service/assets/120368654/3d53149a-c291-4c3c-9e9c-9060092f639d)
 
-5. Créer le Web service Restfull qui permet de gérer des comptes
+5. Créer le Web service Restful qui permet de gérer des comptes
 ![Capture d'écran 2023-05-15 233041](https://github.com/oumaimabenaboud/micro_service/assets/120368654/38169c7f-0caa-489e-813e-5da839dfa1b7)
 ![Capture d'écran 2023-05-15 233800](https://github.com/oumaimabenaboud/micro_service/assets/120368654/d13f2bcc-b305-4d08-82e7-b62fecf8fb3c)
 
