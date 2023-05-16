@@ -17,16 +17,24 @@ import java.util.UUID;
 public class AccountServiceImpl implements AccountService {
     @Autowired
     private BankAccountRepository bankAccountRepository;
+    @Autowired
     private AccountMapper accountMapper;
 
-
-    @Autowired
-    public AccountServiceImpl(BankAccountRepository bankAccountRepository, AccountMapper accountMapper) {
-        this.bankAccountRepository = bankAccountRepository;
-        this.accountMapper = accountMapper;
-    }
     @Override
     public BankAccountResponseDTO addAccount(BankAccountRequestDTO bankAccountDTO) {
+        BankAccount bankAccount=BankAccount.builder()
+                .id(UUID.randomUUID().toString())
+                .createdAT(new Date())
+                .balance(bankAccountDTO.getBalance())
+                .type(bankAccountDTO.getType())
+                .currency(bankAccountDTO.getCurrency())
+                .build();
+        BankAccount saveBankAccount = bankAccountRepository.save(bankAccount);
+        BankAccountResponseDTO bankAccountResponseDTO=accountMapper.fromBankAccount(saveBankAccount);
+        return bankAccountResponseDTO;
+    }
+    @Override
+    public BankAccountResponseDTO updateAccount(BankAccountRequestDTO bankAccountDTO) {
         BankAccount bankAccount=BankAccount.builder()
                 .id(UUID.randomUUID().toString())
                 .createdAT(new Date())

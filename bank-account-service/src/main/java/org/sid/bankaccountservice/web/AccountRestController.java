@@ -21,12 +21,10 @@ import java.util.UUID;
 @RequestMapping("/api")
 public class AccountRestController {
     private BankAccountRepository bankAccountRepository;
+    @Autowired
     private AccountService accountService;
     private AccountMapper accountMapper;
-    @Autowired
-    public AccountRestController(AccountService accountService) {
-        this.accountService = accountService;
-    }
+
 
 
     @GetMapping("/bankAccounts")
@@ -52,6 +50,7 @@ public class AccountRestController {
         if(bankAccount.getCurrency()!=null) account.setCurrency(bankAccount.getCurrency());
         return bankAccountRepository.save(account);
     }
+
     @DeleteMapping("/bankAccounts/{id}")
     public void deleteAccount (@PathVariable String id){
         bankAccountRepository.deleteById(id);
