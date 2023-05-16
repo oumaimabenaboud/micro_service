@@ -22,10 +22,15 @@
 6. Tester le web micro-service en utilisant un client REST comme Postman
 - Liste des comptes
 ![Capture d'écran 2023-05-16 000127](https://github.com/oumaimabenaboud/micro_service/assets/120368654/b620654e-f8fe-4074-9b8d-4d4bb7bdc135)
-- Find one account by Id
+- Find account by Id
 ![Capture d'écran 2023-05-16 000235](https://github.com/oumaimabenaboud/micro_service/assets/120368654/54fa6eee-0d09-4c94-9f90-8f2352c0adbf)
+- Save new account
+![Capture d'écran 2023-05-16 001933](https://github.com/oumaimabenaboud/micro_service/assets/120368654/13a79119-322e-488c-9c98-66af947530a8)
+- Update account info
+![Capture d'écran 2023-05-16 001952](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e6472709-1265-4da6-8c9b-3b7e36e57998)
 
 7. Générer et tester le documentation Swagger de des API Rest du Web service
+
 8. Exposer une API Restful en utilisant Spring Data Rest en exploitant des projections
 9. Créer les DTOs et Mappers
 10. Créer la couche Service (métier) et du micro service
