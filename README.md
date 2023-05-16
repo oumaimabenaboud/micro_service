@@ -16,7 +16,9 @@
 ![Capture d'écran 2023-05-15 224903](https://github.com/oumaimabenaboud/micro_service/assets/120368654/3d53149a-c291-4c3c-9e9c-9060092f639d)
 
 5. Créer le Web service Restful qui permet de gérer des comptes
+- Liste des comptes
 ![Capture d'écran 2023-05-15 233041](https://github.com/oumaimabenaboud/micro_service/assets/120368654/38169c7f-0caa-489e-813e-5da839dfa1b7)
+- Find account by Id
 ![Capture d'écran 2023-05-15 233800](https://github.com/oumaimabenaboud/micro_service/assets/120368654/d13f2bcc-b305-4d08-82e7-b62fecf8fb3c)
 
 6. Tester le web micro-service en utilisant un client REST comme Postman
@@ -29,23 +31,30 @@
 - Update account info
 ![Capture d'écran 2023-05-16 001952](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e6472709-1265-4da6-8c9b-3b7e36e57998)
 
-7. Générer et tester le documentation Swagger du API Rest du Web service
+7. Générer et tester la documentation Swagger du API Rest du Web service
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/8e5b7eba-678d-4436-aa21-aecc4f755cad)
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/aaf31962-957c-4584-bbc8-6e3b80464148)
+- Importer la documentaion OpenAPI dans Postman
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/968b22d2-af90-46c0-be0a-35b63d086932)
 
 8. Exposer une API Restful en utilisant Spring Data Rest en exploitant des projections
 - Utilisation de Spring Data Rest
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/3f23c2dd-f8cb-42c5-bd3f-fc53347b7045)
+- Search using "findByType"
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/7d742709-bafa-458f-8af9-12c3d591632b)
 - Projection
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/99fb0e1a-b608-4f0c-bf0f-620a1e48a9d3)
+- Search using "byType"
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e0b2c396-9d71-43ab-a78e-2f37b168136c)
 
 9. Créer les DTOs et Mappers
 - Save new account using DTOs
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/4fb9fff8-7bec-4667-846e-d2a81b3fb36a)
+
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e938205a-e136-4fcd-83c3-271d02752aae)
 - Save new account using Mappers
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/52c1bc57-869e-441e-8df2-dda8d0c01789)
+
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f51e2990-4f37-4775-aacd-a41f73537558)
 
 10. Créer la couche Service (métier) du micro service
