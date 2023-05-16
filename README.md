@@ -61,3 +61,12 @@
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f0ba00f7-401a-491d-ad30-2472965f9173)
 
 11. Créer un Web service GraphQL pour ce micro-service
+- Test du Webservice using GrahiQL : Liste des comptes
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/ace2badd-a62c-4019-b7fc-1b9d652d01f6)
+- Test du Webservice using GrahiQL : Find account by Id
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/35c6fc4b-36ab-4527-a2a9-678ee5515e68)
+- Ajout de l'Exception Handler
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/1a11a723-27c9-4066-a723-afa742a91d4a)
+- Test du Webservice using GrahiQL : Add new account
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/3cd59bd4-0b01-4d01-b301-988107c4c912)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/62c6b6b3-4c17-49ff-9844-d91ba883d68a)
