@@ -53,12 +53,12 @@
 
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e938205a-e136-4fcd-83c3-271d02752aae)
 - Save new account using Mappers
-![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/52c1bc57-869e-441e-8df2-dda8d0c01789)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/76ac844c-d95e-4712-a5a2-4e98261249cf)
 
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f51e2990-4f37-4775-aacd-a41f73537558)
 
 10. Créer la couche Service (métier) du micro service
-![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f0ba00f7-401a-491d-ad30-2472965f9173)
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f2a22ad4-46a5-482e-92b9-9e9e38321eb7)
 
 11. Créer un Web service GraphQL pour ce micro-service
 - Test du Webservice using GrahiQL : Liste des comptes
@@ -70,3 +70,14 @@
 - Test du Webservice using GrahiQL : Add new account
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/3cd59bd4-0b01-4d01-b301-988107c4c912)
 ![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/62c6b6b3-4c17-49ff-9844-d91ba883d68a)
+- Test du Webservice using GrahiQL : Update account
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/02a01aac-d859-4d36-83e3-034ed633964e)
+- Test du Webservice using GrahiQL : Delete account
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/c1b84891-5c64-4d44-b718-4e093ecaa0b6)
+- Ajout de l'entité Customer
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/e1c5542b-6c65-404f-ad6a-4c20809a90af)
+- Test du Webservice using GrahiQL : Liste des comptes avec noms de clients
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/d6823fab-c946-48ad-85be-f1d4495372a9)
+
+![image](https://github.com/oumaimabenaboud/micro_service/assets/120368654/f0e04f00-0b23-4f1c-a82e-af775afa67a8)
+
