@@ -1,14 +1,20 @@
 type Query{
     accountsList : [BankAccount]
     bankAccountById(id:String) : BankAccount
+    customers: [Customer]
 }
-
+type Customer{
+    id:ID,
+    name:String
+    bankAccounts:[BankAccount]
+}
 type BankAccount{
     id:String ,
     balance:Float,
     createAt:Float,
     currency:String ,
     type:String,
+    customer:Customer
 }
 type Mutation{
     addAccount(bankAccount:BankAccountDTO):BankAccount,

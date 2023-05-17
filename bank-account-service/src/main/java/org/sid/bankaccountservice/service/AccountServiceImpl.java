@@ -34,9 +34,9 @@ public class AccountServiceImpl implements AccountService {
         return bankAccountResponseDTO;
     }
     @Override
-    public BankAccountResponseDTO updateAccount(BankAccountRequestDTO bankAccountDTO) {
+    public BankAccountResponseDTO updateAccount(String id, BankAccountRequestDTO bankAccountDTO) {
         BankAccount bankAccount=BankAccount.builder()
-                .id(UUID.randomUUID().toString())
+                .id(id)
                 .createdAT(new Date())
                 .balance(bankAccountDTO.getBalance())
                 .type(bankAccountDTO.getType())
